@@ -25,4 +25,4 @@ statsmodels==0.14.1
 tzdata==2024.1
 wheel==0.43.0
 fastapi
-pip install requests
+requests
