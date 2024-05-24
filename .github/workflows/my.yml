@@ -30,7 +30,7 @@ jobs:
         
     - name: Проверка приложения
       run: |
-        curl -f 176.65.39.68:8000
+        curl -f 192.168.1.5:8000
 
     - name: Deploy
       run: |
