@@ -78,7 +78,7 @@ async def add_noise(request: Request, file: UploadFile = File(...), noise_level:
         contents = await file.read()
 
         # Проверяем Captcha
-        secret_key = "6LeQr-MpAAAAAHEriEy5jXJ5f-Fm2AAyLPcOHCXe"  # Замените на ваш секретный ключ
+        secret_key = "6LccNucpAAAAAHeINJ0jZXO--RBoa-La2DRn2C1M"  # Замените на ваш секретный ключ
         payload = {
             "secret": secret_key,
             "response": resp
