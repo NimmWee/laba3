@@ -34,4 +34,4 @@ jobs:
 
     - name: Deploy
       run: |
-        curl -f https://api.render.com/deploy/srv-cp80k4kf7o1s73em79s0?key=i7_RnYdDVRk
+        curl -f https://api.render.com/deploy/srv-cp7niggl6cac73e72tr0?key=APEVWlmG4z8
